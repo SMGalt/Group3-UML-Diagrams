@@ -11,7 +11,7 @@ You can click on any `.svg` file above to view it in full detail. You can freely
 This repository contains all 8 UML diagrams referenced in our Phase-1 Document, organized into three categories:
 
 ### 1. Use Case Diagrams (FR Validation)
-* **`Fig1_UseCase_GlobalGameFlow.svg`**: Illustrates the macro-level game lifecycle, including room setup, drawing, playing, discarding, and win-condition checking.
+* **`Fig1_UseCase_GlobalGameFlow.svg`**: Illustrates the complete game lifecycle with a clear distinction between **Human Players** and **AI Players**. It covers integrated turn-management logic, including setup, turn-cycle execution, and win-condition automated checks.
 * **`Fig2_UseCase_ActionCardDetails.svg`**: A detailed sub-system view using `<<extend>>` relationships to break down the complex interactions of specific Action Cards (e.g., Deal Breaker, Sly Deal, Rent).
 
 ### 2. Sequence Diagrams (Core Logic & Interaction)
@@ -24,6 +24,7 @@ These diagrams model the precise object interactions for our 5 most critical and
 
 ### 3. Class Diagram (Clean Design & Architecture)
 * **`Fig8_ClassDiagram_Architecture.svg`**: The complete structural blueprint of our project. It explicitly highlights our adherence to the **MVC Architecture** and the strategic application of **8 Design Patterns** (`<<Singleton>>`, `<<Facade>>`, `<<Observer>>`, `<<State>>`, `<<Strategy>>`, `<<Command>>`, `<<Factory>>`, `<<Controller>>`), significantly exceeding the minimum requirement.
+* **`Fig9_ClassDiagram_Simplified.svg`**: A streamlined version focusing on the **Core MVC Architecture**. It highlights the relationships between major packages (`model`, `view`, `controller`, `state`) without the visual clutter of specific card attributes, making it ideal for a quick architectural overview.
 
 ---
 *Note: In addition to the basic patterns explicitly required by the course, the project also plans to incorporate the State, Strategy, Command, and Factory patterns to handle complex turn transitions, AI decision-making, and card generation. The design concepts for these extended patterns are informed by the course-recommended textbook "Head First Design Patterns," representing the team's independent advanced learning beyond the baseline requirements.*
