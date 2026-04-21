@@ -23,7 +23,7 @@ These diagrams model the precise object interactions for our 5 most critical and
 * **`Fig7_Sequence_RentPaymentProcess.svg`**: Showcases the complex, multi-step asynchronous communication required for collecting rent from opponents.
 
 ### 3. Class Diagram (Clean Design & Architecture)
-* **`Fig8_ClassDiagram_Architecture.svg`**: The complete structural blueprint of our project. It explicitly highlights our adherence to the **MVC Architecture** and the strategic application of **8 Design Patterns** (`<<Singleton>>`, `<<Facade>>`, `<<Observer>>`, `<<State>>`, `<<Strategy>>`, `<<Command>>`, `<<Factory>>`, `<<Controller>>`), significantly exceeding the minimum requirement.
+* **`Fig8_ClassDiagram_Architecture.svg`**: The complete system blueprint. This version provides a **deep-dive into the class hierarchy**, including the full inheritance tree for `ActionCard` and `PropertyCard` subclasses. It explicitly visualizes the interaction between the **8 design patterns** and the comprehensive method signatures required for the Phase-2 implementation.
 * **`Fig9_ClassDiagram_Simplified.svg`**: A streamlined version focusing on the **Core MVC Architecture**. It highlights the relationships between major packages (`model`, `view`, `controller`, `state`) without the visual clutter of specific card attributes, making it ideal for a quick architectural overview.
 
 ---
